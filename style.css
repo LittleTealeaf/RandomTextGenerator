@@ -13,8 +13,6 @@ html {
     width: fit-content;
     padding: 10px;
     border-radius: 15px;
-    
-
 }
 
 .header button {
@@ -43,6 +41,10 @@ html {
 ::selection {
     color:rgb(19, 45, 68);
 
+}
+
+#output {
+    word-wrap:break-word;
 }
 
 /* 
