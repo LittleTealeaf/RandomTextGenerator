@@ -1,0 +1,54 @@
+#paragraph_count {
+    width: 50px;
+}
+
+html {
+    background-color: #159b94;
+    font-family: fantasy;
+}
+
+.header {
+    background-color:rgb(19, 45, 68);
+    color: #60ccc7;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    
+
+}
+
+.header button {
+    background-color: #159b94;
+    border-color: #159b94;
+    padding: 2px;
+    border-radius: 10%;
+    transition-duration: 1s;
+}
+
+.header button:hover {
+    background-color: #50e6c0;
+}
+
+.header input:hover {
+    background-color: #50e6c0;
+}
+
+
+.header input {
+    background-color: #159b94;
+    border-color: #159b94;
+    transition-duration: 1s;
+
+}
+::selection {
+    color:rgb(19, 45, 68);
+
+}
+
+/* 
+.input {
+    font-style: italic;
+    font-family: fantasy;
+    font-size: larger;
+
+} */
